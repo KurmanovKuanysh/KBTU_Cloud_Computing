@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# PyCharm IDE
+.idea/
+
+# Environment variables
+.env
+
+# Project-specific output files
+output.json
+output_good.json
+

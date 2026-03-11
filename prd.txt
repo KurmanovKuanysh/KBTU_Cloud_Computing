@@ -1,0 +1,10 @@
+Write a Python function parse_csv(path: str) -> list[dict].
+
+Requirements:
+1. The function must use csv.DictReader.
+2. The function must return a list of dictionaries.
+3. Each dictionary must represent one CSV row.
+4. The function must handle FileNotFoundError and return [].
+5. The function must handle malformed CSV or csv.Error and return [].
+6. The code must not use eval, exec, os.system, or subprocess.
+7. The code must not contain hardcoded secrets, API keys, or credentials.
